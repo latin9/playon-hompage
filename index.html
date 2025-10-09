@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PLAYON - 게임을 즐겁게! 캐쥬얼한 감성의 게임 개발사" />
+  <title>PLAYON | 게임 개발 스튜디오</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Nanum Gothic', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #eee;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .logo {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 28px;
+      color: #ff3c78;
+    }
+    nav a {
+      margin-left: 20px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff3c78;
+    }
+    section {
+      padding: 80px 24px;
+    }
+    .hero {
+      text-align: center;
+      background: linear-gradient(to right, #ffdee9, #b5fffc);
+      color: #111;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+    .games, .about {
+      max-width: 800px;
+      margin: auto;
+    }
+    .game-card {
+      background: #fff9fb;
+      padding: 24px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(255, 60, 120, 0.1);
+    }
+    .game-card h3 {
+      margin-top: 0;
+      color: #ff3c78;
+    }
+    .contact-email {
+      text-align: center;
+      padding: 60px 20px;
+      font-size: 18px;
+    }
+    .contact-email a {
+      color: #ff3c78;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact-email a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #fafafa;
+      text-align: center;
+      padding: 20px;
+      color: #999;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">PLAYON</div>
+    <nav>
+      <a href="#about">회사소개</a>
+      <a href="#games">게임소개</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>게임은 재밌어야 하니까!</h1>
+    <p>PLAYON은 누구나 쉽게 즐길 수 있는 캐쥬얼 게임을 만드는 작은 게임 스튜디오입니다.</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>👋 우리 회사 소개</h2>
+    <p>PLAYON은 '즐거움'을 가장 중요하게 생각하는 캐쥬얼 게임 개발사예요. <br />
+    복잡한 설명 없이 바로 즐길 수 있고, 하루 5분만 플레이해도 힐링되는 게임을 만들고 있어요. <br />
+    친구처럼 편안한 게임, 그게 바로 우리의 목표입니다!</p>
+  </section>
+
+  <section id="games" class="games">
+    <h2>🎮 만든 게임들</h2>
+    <div class="game-card">
+      <h3>메이플 키우기</h3>
+      <p>귀여운 도트 캐릭터들과 함께하는 방치형 RPG! 레벨업, 보스 격파, 장비 강화까지 한 손으로 간편하게!</p>
+    </div>
+    <div class="game-card">
+      <h3>팜 디펜스</h3>
+      <p>농장을 지켜라! 귀여운 동물 친구들과 함께하는 디펜스 시뮬레이션. 수확도 하고 방어도 하고 바쁘다 바빠~</p>
+    </div>
+  </section>
+
+  <section class="contact-email">
+    <p>문의사항이 있으시면 언제든지 <a href="mailto:mswidlerpg@gmail.com">mswidlerpg@gmail.com</a> 으로 메일 주세요!</p>
+  </section>
+
+  <footer>
+    © 2025 PLAYON | 재밌는 게임을 만드는 작고 귀여운 회사 💕
+  </footer>
+</body>
+</html>
